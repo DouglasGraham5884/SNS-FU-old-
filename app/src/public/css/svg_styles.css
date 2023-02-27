@@ -1,0 +1,50 @@
+:root {
+    --color1: #0bd;
+    --color2: #00beff;
+    --color3: #321efa;
+    --color4: #ff6000;
+    --color5: #f00;
+    --color6: #f0f;
+}
+
+.svg-box {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+}
+
+.svg-box img {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.svg-icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    text-align: center;
+}
+
+.svg-icon img {
+        width: 40px;
+        height: 40px;
+    transition: opacity .3s;
+}
+
+.svg-icon img:hover {
+    opacity: .5;
+}
+
+.color-1 {
+    color: var(--color2);
+}
+
+.svg-box + .svg-box {
+    margin-left: 20px;
+}

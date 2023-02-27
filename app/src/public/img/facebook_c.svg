@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="512" height="512" viewBox="0 0 512 512" xml:space="preserve">
+<desc>Created with Fabric.js 4.6.0</desc>
+<defs>
+</defs>
+<g transform="matrix(1.01 0 0 1.01 256 256)" id="Brd2WPfbAq2LkKw-sd8Rt" clip-path="url(#CLIPPATH_1)"  >
+<clipPath id="CLIPPATH_1" >
+	<rect transform="matrix(1 0 0 1 0 0)" id="_clipPath_xXn20OUbrLfEttbDxGGa88qbEg0RDdSx" x="-256" y="-256" rx="0" ry="0" width="512" height="512" />
+</clipPath>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(50,30,250); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-256, -256)" d="M 504 257.5 C 504 120.5 393 9.5 256 9.5 C 119 9.5 8 120.5 8 257.5 C 8 381.28 98.69 483.88 217.25 502.5 L 217.25 329.19 L 154.25 329.19 L 154.25 257.5 L 217.25 257.5 L 217.25 202.86 C 217.25 140.71 254.25 106.38 310.92 106.38 C 338.06 106.38 366.44 111.22 366.44 111.22 L 366.44 172.22 L 335.16 172.22 C 304.36 172.22 294.75 191.34 294.75 210.95 L 294.75 257.5 L 363.53 257.5 L 352.53 329.19 L 294.75 329.19 L 294.75 502.5 C 413.31 483.88 504 381.28 504 257.5 Z" stroke-linecap="round" />
+</g>
+</svg>

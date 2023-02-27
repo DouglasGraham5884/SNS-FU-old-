@@ -1,0 +1,12 @@
+:root {
+    --color1: #0bd;
+    --color2: #00beff;
+    --color3: #321efa;
+    --color4: #ff6000;
+    --color5: #f00;
+    --color6: #f0f;
+}
+
+.dev {
+    color: var(--color1);
+}
