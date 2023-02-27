@@ -1,0 +1,24 @@
+user
+
+user_id			ユーザ識別ID
+user_name		表示される名前
+password		複合したパスワード
+description		自己紹介
+email			メールアドレス
+profile_pictuire_path	アイコン画像のパス
+
+
+data
+
+data_id			投稿識別ID
+user_id			ユーザ識別ID
+message			投稿内容
+media_type		メディアの種類（画像や動画）
+media_path_01		メディアパス01
+media_path_02		メディアパス02
+media_path_03		メディアパス03
+media_path_04		メディアパス04
+created_at		投稿作成日時
+updated_at		投稿更新日時
+
+あとで更新

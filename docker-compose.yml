@@ -1,0 +1,42 @@
+services:
+  php-app-dev:
+    container_name: fu3-php-dev
+    build: ./app
+    ports:
+      - "8080:80"
+    volumes:
+      - ./app/src:/var/www/html
+    networks:
+      - php-mysql-networks-dev
+    depends_on:
+      - php-db-dev
+  php-db-dev:
+    image: mysql:8.0
+    container_name: fu3-db-dev
+    ports:
+      - "3307:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=sns
+      - MYSQL_USER=gra
+      - MYSQL_PASSWORD=58849686
+    volumes:
+      - ./mysql/initdb.d:/docker-entrypoint-initdb.d
+      - mysql-data:/var/lib/mysql
+    networks:
+      - php-mysql-networks-dev
+  php-adminer-dev:
+    image: adminer:4.8.1
+    container_name: fu3-adminer-dev
+    ports:
+      - "8081:8080"
+    networks:
+      - php-mysql-networks-dev
+    depends_on:
+      - php-db-dev
+
+volumes:
+  mysql-data:
+
+networks:
+  php-mysql-networks-dev:
