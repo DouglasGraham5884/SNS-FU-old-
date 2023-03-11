@@ -18,8 +18,8 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=root
       - MYSQL_DATABASE=sns
-      - MYSQL_USER=gra
-      - MYSQL_PASSWORD=58849686
+      - MYSQL_USER=test
+      - MYSQL_PASSWORD=test
     volumes:
       - ./mysql/initdb.d:/docker-entrypoint-initdb.d
       - mysql-data:/var/lib/mysql
